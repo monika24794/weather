@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1" style="background-color: rgb(124, 233, 233);">
+            <h3 class="temp-heading">N/A</h3>
+            <img src="cloud-96.png" class="weather-icon">
+            <h5 class="city">N/A</h5>
+            <h5 class="weater-info">N/A</h5>
+        </div>
+        <div class="box box2">
+            <h6 class="humidity">Humidity : </h6>
+            <h6 class="speed">Wind Speed : </h6>
+            <h6 class="fahrenheit">Fahrenheit : </h6>
+            <input id="tags"  class="input-city" type="text" placeholder="Enter City Name">
+            <button class="btn">Hit</button>
+            <div class="error">
+            <p>Invlid City Name</p>
+            </div>
+        </div>
+    </div>
+    <script src="./jquery-ui.js"></script>
+    <script src="./jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
